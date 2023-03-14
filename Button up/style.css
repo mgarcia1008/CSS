@@ -1,0 +1,32 @@
+* {
+    margin: 30px;
+    padding: 0;
+}
+
+#search {
+    border: 2px solid #6bbfbf;
+    color: #6bbfbf;
+    text-align: center;
+    width: 15%;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#plus {
+    border: 10px solid #6bbfbf;
+    color:white;
+    background-color: #6bbfbf;
+    border-radius: 50%;
+    width: 25px;
+    text-align: center;
+    font-weight: 900;
+}
+
+#createAccount{
+    border: 3px solid black;
+    color:white;
+    background-color: #2b76e1;  
+    text-align:center;
+    width: 25%; 
+    box-shadow: 10px 5px 5px black;
+}
