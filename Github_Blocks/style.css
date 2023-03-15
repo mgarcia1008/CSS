@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    color:blueviolet;
+    text-align: center;
+}
+
+.container1 {
+    width: 720px;
+    height: 250px;
+    background-color:aqua;
+    justify-content: space-around;
+}
+
+.container2{
+    width: 720px;
+    height: 250px;
+    background-color: rebeccapurple;  
+    justify-content:space-evenly;
+}
+
+.container3{
+    width: 720px;
+    height: 250px;
+    background-color:crimson;
+    justify-content: space-between;  
+}
+img{
+    height:200px;
+}
+
+div{
+    padding: 15px;
+    display:flex;
+    align-items: center;
+    margin: 20px;
+}
+
+p{
+    text-align: center; 
+}
