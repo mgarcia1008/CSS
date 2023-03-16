@@ -5,14 +5,22 @@
 
 h1{
     color:blueviolet;
-    text-align: center;
+    text-align:center
+    
 }
 
+.maincontainer{
+    margin:0 auto;
+    width: 800px;
+    height:850px;
+}
 .container1 {
     width: 720px;
     height: 250px;
     background-color:aqua;
     justify-content: space-around;
+    /* margin-left: 400px;  */
+    display: flex;
 }
 
 .container2{
@@ -20,6 +28,7 @@ h1{
     height: 250px;
     background-color: rebeccapurple;  
     justify-content:space-evenly;
+    display: flex;
 }
 
 .container3{
@@ -27,6 +36,7 @@ h1{
     height: 250px;
     background-color:crimson;
     justify-content: space-between;  
+    display: flex;
 }
 img{
     height:200px;
@@ -34,8 +44,6 @@ img{
 
 div{
     padding: 15px;
-    display:flex;
-    align-items: center;
     margin: 20px;
 }
 
