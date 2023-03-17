@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bar{
+background-color: black;
+height: 40px;
+width: 1068;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 10pt;
+    margin-left: 20px;   
+}
+.btn{
+    background-color:rgb(18, 126, 143) ;
+    color: white;
+}
+.user_card{
+    background-color: rgb(23, 169, 188);
+    width: 300px;
+    height: 98px;   
+    margin-top: 25px;
+    display: flex;
+    margin-left: 295px;
+    
+}
