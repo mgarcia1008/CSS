@@ -1,36 +1,125 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: arial;
 }
 
-.nav_bar{
-background-color: black;
-height: 40px;
-width: 1068;
-color: white;
-font-family: Arial, Helvetica, sans-serif;
-display: flex;
-align-items: center;
-justify-content: center;
+.nav_bar {
+    background-color: black;
+    height: 40px;
+    width: 1068;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     list-style-type: none;
     gap: 20px;
     font-size: 10pt;
-    margin-left: 20px;   
+    margin-left: 20px;
 }
-.btn{
-    background-color:rgb(18, 126, 143) ;
+
+.btn {
+    background-color: rgb(18, 126, 143);
     color: white;
 }
-.user_card{
+
+.user_card {
     background-color: rgb(23, 169, 188);
     width: 300px;
-    height: 98px;   
+    height: 98px;
     margin-top: 25px;
     display: flex;
-    margin-left: 295px;
+    margin-left: 440px;
+    border: solid rgb(181, 180, 180);
+
+}
+
+.picture {
+    height: 70px;
+    position: relative;
+    top: 60px;
+    border-radius: 50%;
+    border: solid black;
+    margin-left: 15px;
+
+}
+
+.location{
+    height: 200px;
+    width: 300px;
+    border: solid rgb(181, 180, 180);
+    margin-left: 440px;
+}
+h2 {
+    margin-left: 10px;
+    margin-top: 40px;
     
+   
+}
+
+.geo {
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 115px
+    margin-right; 20px
+    
+}
+
+h4{
+    text-align: center;
+    margin-right: 250px;
+
+}
+
+
+
+.edu_title{
+    background-color: rgb(51, 51, 51);
+    width: 300px;
+    height:36px;
+    margin-top: 30px;
+    margin-left: 440px;
+    border: solid rgb(181, 180, 180);
+}
+
+h3{
+    text-align: left;
+    color: white;
+    padding: 8px;
+}
+
+.dojo_border{
+    border: solid gray;
+    height: 70px;
+    width: 297px;
+ 
+}
+.dojo{
+    font-weight: bold;
+  
+
+}
+
+.grad{
+    color: slategray;
+    font-size: 14px;
+}
+.belt{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.connection_req{
+    height: 150px;
+    width:150px;
+    background-color: blanchedalmond;
+    margin-left: 800px;
+  
+
+
 }
